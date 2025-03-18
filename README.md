@@ -11,4 +11,4 @@ The code implements a one-dimensional cellular automaton that evolves based on a
 
 ## LAB_04
 This project implements Conway's Game of Life using Python, NumPy, and Matplotlib. It supports two boundary conditions: periodic and reflecting, affecting how cells interact at the edges. The simulation starts with an initial grid containing predefined patterns such as gliders, oscillators, still life, or a random configuration. The grid evolves over a set number of steps according to the Game of Life rules. Each step updates the state based on the number of neighboring alive cells. Animated GIFs are generated for each pattern and boundary condition to visualize the evolution. To run the simulation, execute the script, and the GIFs will be saved automatically in the working directory
-![Game of Life Simulation](LAB04/game_of_life_random_periodic.gif)
+![Game of Life Simulation](LAB_04/game_of_life_random_periodic.gif)
