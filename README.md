@@ -1,10 +1,15 @@
 # Discrete Modeling
 
-## LAB01
+## LAB_01
 This directory contains Python code for performing basic image processing tasks such as darkening, brightening, and binary thresholding using the Pillow library. The darkening function reduces the image's brightness by a user-defined percentage, while the brightening function generates multiple images with incremental brightness increases. The binary thresholding function converts the image to a binary format based on a fixed or user-defined threshold. Users can dynamically adjust the threshold during runtime to explore different binary outcomes. The code allows easy manipulation of grayscale images and saving the results to files.
 
-## LAB02
+## LAB_02
 The directory contains an implementation of contextual and morphological transformations in Python. It includes functions for dilation, erosion, opening, closing, and convolution operations with masks of varying radii. The code also supports loading masks from files and saving transformation results as image files.
 
-## LAB03
+## LAB_03
 The code implements a one-dimensional cellular automaton that evolves based on a set of rules derived from an album number. It supports both periodic and absorbing boundary conditions and saves the resulting automaton states to a CSV file. The user inputs the number of iterations and the boundary condition type, and the program simulates successive generations of the automaton
+
+## LAB_04
+This project implements Conway's Game of Life using Python, NumPy, and Matplotlib. It supports two boundary conditions: periodic and reflecting, affecting how cells interact at the edges. The simulation starts with an initial grid containing predefined patterns such as gliders, oscillators, still life, or a random configuration. The grid evolves over a set number of steps according to the Game of Life rules. Each step updates the state based on the number of neighboring alive cells. Animated GIFs are generated for each pattern and boundary condition to visualize the evolution. To run the simulation, execute the script, and the GIFs will be saved automatically in the working directory
+
+  ![Game of Life Simulation](LAB_04/game_of_life_random_periodic.gif)
