@@ -13,3 +13,10 @@ The code implements a one-dimensional cellular automaton that evolves based on a
 This project implements Conway's Game of Life using Python, NumPy, and Matplotlib. It supports two boundary conditions: periodic and reflecting, affecting how cells interact at the edges. The simulation starts with an initial grid containing predefined patterns such as gliders, oscillators, still life, or a random configuration. The grid evolves over a set number of steps according to the Game of Life rules. Each step updates the state based on the number of neighboring alive cells. Animated GIFs are generated for each pattern and boundary condition to visualize the evolution. To run the simulation, execute the script, and the GIFs will be saved automatically in the working directory
 
   ![Game of Life Simulation](LAB_04/game_of_life_random_periodic.gif)
+
+## LAB_05
+
+This project simulates wildfire spread using a cellular automaton. The terrain is classified into different states (green area, burned area, water, and fire) based on an input image, where water regions are detected using a blue channel threshold. The fire spreads dynamically based on neighboring cells, wind direction, and fire duration, with burned areas forming over time. The simulation runs for a set number of steps and can be visualized as an animation or saved as a GIF. The project is implemented in Python using NumPy, Matplotlib, and PIL for image processing and visualization.
+
+
+![Fire_Simulation](LAB_05/fire_simulation.gif)
