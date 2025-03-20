@@ -20,3 +20,10 @@ This project simulates wildfire spread using a cellular automaton. The terrain i
 
 
 ![Fire_Simulation](LAB_05/fire_simulation.gif)
+
+
+## LAB_06
+
+This project simulates Lattice Gas Automaton (LGA), a simple fluid dynamics model, using Python and Pygame. The simulation consists of a grid where each cell represents a fluid particle with discrete velocity directions, and a central wall with a hole allows fluid to pass through. The LGA class handles particle initialization, collisions, and streaming, while the Visualization class uses Pygame to render the simulation with buttons for controlling animation. The program captures frames to create a GIF of the simulation. Users can start, stop, and reset the simulation, observing emergent fluid behavior in real time.
+
+![LGA](LAB_06/simulation.gif)
